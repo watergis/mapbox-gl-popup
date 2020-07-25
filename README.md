@@ -1,4 +1,7 @@
 # mapbox-gl-popup
+![](https://github.com/watergis/mapbox-gl-popup/workflows/Node.js%20Package/badge.svg)
+![GitHub](https://img.shields.io/github/license/watergis/mapbox-gl-popup)
+
 This module adds popup control which can show attributes of targeted layers to mapbox-gl
 
 ## Installation:
