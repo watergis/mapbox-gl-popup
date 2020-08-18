@@ -6,14 +6,14 @@ table.mapboxgl-popup-table{
     border-collapse:collapse;
     margin:0 auto;
 }
-td,th{
+td.mapboxgl-popup-td,th.mapboxgl-popup-th{
     border:1px solid #ccc;
     margin: 10px;
     padding:2px;
     text-align: left;
     white-space:pre-wrap;
 }
-th{
+th.mapboxgl-popup-th{
     background:#EFEFEF;
     width: 30%;
     word-wrap:break-word;
