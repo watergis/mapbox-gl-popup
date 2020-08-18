@@ -1,6 +1,6 @@
 {
   "name": "@watergis/mapbox-gl-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc && webpack --config webpack.js",
     "build-webpack": "webpack --config webpack.js",
     "start": "webpack-dev-server --open --hot --inline --config webpack.js"
   },

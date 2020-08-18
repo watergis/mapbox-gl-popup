@@ -1,5 +1,4 @@
 .mapboxgl-popup {
-    max-width: 400px;
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
 
@@ -12,7 +11,10 @@ td,th{
     margin: 10px;
     padding:2px;
     text-align: left;
+    white-space:pre-wrap;
 }
 th{
     background:#EFEFEF;
+    width: 30%;
+    word-wrap:break-word;
 }

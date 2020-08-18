@@ -23,7 +23,8 @@ export default class MapboxPopupControl implements IControl{
     if (!this.map){return};
 
     new Popup().setLngLat(coordinates)
-    .setHTML(`<table class="mapboxgl-popup-table">${Object.keys(f.properties).map(k=>{return `<tr><th>${k}</th><td>${f.properties[k]}</td></tr>`;}).join('')}</table>`)
+    .setHTML(`<table class="mapboxgl-popup-table">${Object.keys(f.properties).map(k=>{return `<tr><th>${k.replace(/_/g,' ').replace(/-/g,' ')}</th><td>${f.properties[k]}</td></tr>`;}).join('')}</table>`)
+    .setMaxWidth("400px")
     .addTo(this.map);
   }
 
