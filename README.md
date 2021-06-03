@@ -12,6 +12,8 @@ npm i @watergis/mapbox-gl-popup --save
 
 ## Demo:
 
+Try [codesandbox](https://codesandbox.io/s/mapbox-gl-popup-y8xs9).
+
 See [demo](https://watergis.github.io/mapbox-gl-popup).
 
 ## Test:
